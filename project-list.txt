@@ -1,0 +1,32 @@
+PROJECT-LIST...
+1. Popup Using HTML, CSS, JAVASCRIPT  
+2. Hide and Show Password on Website  
+3. Toast Notification or Snackbar For Websites  
+4. Website Dark Mode  
+5. Digital Clock  
+6. Age Calculator  
+7. StopWatch  
+8. Calculator  
+9. Circular Progress Bar  
+10. Select Menu Design  
+11. Notes App  
+12. To-Do List App  
+13. Quote Generator  
+14. Image Gallery  
+15. Show Password Strength  
+16. Text to Voice Converter  
+17. QR Code Generator  
+18. Drag & Drop  
+19. Mini Calendar  
+20. Form Validation  
+21. Weather App  
+22. Random Password Generator  
+23. Image Background Change Effect  
+24. Product Page Design  
+25. Music Player  
+26. Quiz App  
+27. Website Coming Soon Page  
+28. Image Search Engine  
+29. Cryptocurrency Website  
+30. Working Email Subscription Form with Google Sheets  
+
