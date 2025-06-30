@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: ghostwhite;
+    padding: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.openBtn {
+    font-size: 25px;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 200px;
+}
+.openBtn:hover {
+    cursor: pointer;
+}
+
+.closeBtn {
+    font-size: 25px;
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 120px;
+}
+.closeBtn:hover {
+    cursor: pointer;
+}
+
+.popup-container {
+    display: none;
+    border: 1px solid black;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+/* CSS */
+.fade-in {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+}
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

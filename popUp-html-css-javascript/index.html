@@ -3,16 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My-Website</title>
+        <title>Popup</title>
 
         <!-- styles -->
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <h2>Get Message from Server</h2>
-        <button onclick="getMessage()">Get Message</button>
-        <p id="output"></p>
+        <section class="container">
+            <button class="openBtn" id="openBtn">Open Model</button>
+            <div class="popup-container" id="popup-container">
+                <p>This is Me Building a Popup</p>
+                <button class="closeBtn" id="closeBtn">Close</button>
+            </div>
+        </section>
 
-        <script src="./app.js"></script>
+        <script src="./main.js"></script>
     </body>
 </html>
