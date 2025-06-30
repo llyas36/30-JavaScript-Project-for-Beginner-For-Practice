@@ -1,7 +1,7 @@
 togglePasswordBtn = document.getElementById("togglePassword");
 passwordInput = document.getElementById("passwordInput");
 
-//handling the toggle icon
+//handling the toggle iconn
 togglePasswordBtn.addEventListener("click", () => {
   if (passwordInput.type == "password") {
     passwordInput.type = "text";
