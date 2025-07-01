@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Notes App</title>
+        <link rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        />
+
+        <!-- styles -->
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="title">Note App:</h2>
+            <div class="btns">
+                <button onclick="{undo()}" id="undo-btn" class="icon-btn"><i class="fas fa-undo"></i> Undo</button>
+                <button onclick="{redo()}" id="redo-btn" class="icon-btn"><i class="fas fa-redo"></i> Redo</button>
+
+                <button id="clear-btn" class="icon-btn">CLEAR</button>
+                <button onclick="{zoomIn()}" id="zoomIn-btn" class="icon-btn"><i class="fas fa-search-plus"></i> Zoom In</button>
+                <button onclick="{zoomOut()}" id="zoomOut-btn" class="icon-btn"><i class="fas fa-search-minus"></i> Zoom Out</button>
+            </div>
+            <textarea
+                placeholder="Your text..."
+                id="textarea"
+                cols="80    "
+                rows="15px"
+            ></textarea>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

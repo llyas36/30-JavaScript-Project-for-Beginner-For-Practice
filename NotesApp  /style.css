@@ -1,0 +1,44 @@
+body {
+    background-color: skyblue;
+
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 100%;
+
+    margin: 0;
+    text-align: center;
+}
+#textarea {
+    resize: none;
+    border: none;
+    border-radius: 25px;
+    padding: 14px;
+}
+
+.title {
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 2px 3px 4px rgb(128, 128, 128);
+}
+
+.icon-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.icon-btn i {
+    margin-right: 8px;
+    color: #333;
+}
+
+.icon-btn:hover {
+    background-color: #ddd;
+}
