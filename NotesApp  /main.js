@@ -16,8 +16,8 @@ let undoStack = [];
 let redoStack = [];
 
 // Save the current state before change
-editor.addEventListener("input", () => {
-  undoStack.push(editor.value);
+textarea.addEventListener("input", () => {
+  undoStack.push(textarea.value);
   // Clear redo history once new input happens
   redoStack = [];
 });
