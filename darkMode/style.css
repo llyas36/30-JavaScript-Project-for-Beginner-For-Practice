@@ -1,0 +1,49 @@
+body {
+    /* background-color: black;
+    color: white; */
+    font-family: sans-serif;
+    transition:
+        background-color 0.7s,
+        color 0.7s;
+}
+.light {
+    background-color: floralwhite;
+    color: rgb(50, 50, 50);
+}
+.dark {
+    background-color: rgb(50, 50, 50);
+    color: floralwhite;
+}
+
+#btn {
+    padding: 10px 45px;
+    font-size: 15px;
+    margin-left: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.title {
+    position: absolute;
+    left: 95px;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.boo {
+    background-color: red;
+}
