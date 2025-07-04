@@ -1,0 +1,45 @@
+body {
+    background-color: #adaca0;
+}
+#time {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.watch-container {
+    border: 1px solid black;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-btn {
+    background-color: springgreen;
+    color: snow;
+    border: none;
+    padding: 5px 13px;
+    border-radius: 9px;
+}
+.stop-btn {
+    background-color: red;
+    color: snow;
+    border: none;
+    padding: 5px 13px;
+    border-radius: 9px;
+}
+.rest-btn {
+    background-color: blue;
+    color: snow;
+    border: none;
+    padding: 5px 13px;
+    border-radius: 9px;
+}
