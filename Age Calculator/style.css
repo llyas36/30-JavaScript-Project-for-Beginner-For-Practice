@@ -1,0 +1,14 @@
+body {
+    background-color: skyblue;
+
+    font-family: sans-serif;
+}
+
+#date,
+button {
+    padding: 8px 13px;
+    border: none;
+    border-radius: 6px;
+    background-color: darkslategray;
+    color: snow;
+}
