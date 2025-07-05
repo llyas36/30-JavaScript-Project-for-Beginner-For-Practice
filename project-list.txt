@@ -10,8 +10,7 @@ PROJECT-LIST...
 8. Calculator  
 9. Circular Progress Bar  
 10. Notes App  
-// 10. Select Menu Design  
-
+// 11. Select Menu Design  
 // 12. To-Do List App  
 // 13. Quote Generator  
 // 14. Image Gallery  
