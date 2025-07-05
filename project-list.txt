@@ -8,7 +8,7 @@ PROJECT-LIST...
 6. Age Calculator  
 7. StopWatch  
 8. Calculator  
-9. Circular Progress Bar  
+9. QR code Generatr
 10. Notes App  
 // 11. Select Menu Design  
 // 12. To-Do List App  
@@ -16,7 +16,7 @@ PROJECT-LIST...
 // 14. Image Gallery  
 // 15. Show Password Strength  
 // 16. Text to Voice Converter  
-// 17. QR Code Generator  
+// 17. Circular Progress Bar   
 // 18. Drag & Drop  
 // 19. Mini Calendar  
 // 20. Form Validation  
